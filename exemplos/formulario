@@ -1,0 +1,42 @@
+<html>
+<head>
+   
+    <title>Exemplo 01</title>
+</head>
+<body>
+    <form action="destino.html" mathod="get" maxlength="10">
+        <label for="name">Nome:</label> <br>
+        <input placeholder="Digite seu nome"type="text" id="name" name="user_name">
+        <br>
+
+        <label for="idade">Idade:</label><br>
+        <input  placeholder="Digite sua idade" type="text" id="idade" name="user_idade">
+
+        <br>
+        <label for="Email">Email:</label><br>
+        <input  placeholder="Digite seu email" type="email" id="email" name="email">
+
+        <br>
+        <label for="Senha">Senha:</label><br>
+        <input placeholder="Digite sua senha" type="password" id="Senha" name="Senha">
+
+        <br><br
+        <label for="Arquivo" enctype=""> Envie seu formulario</label><br>
+        <input type="file" name="arquivo" id="arquivo"><br>
+        
+        <label for="PRF">PRF</label>
+        <input  type="checkbox" name="civil" id="civil"><br>
+
+        <label for="camila"></label>
+        <input  type="radio" name="camila" id="camila"><br>
+
+        <label for="bringel">PRF</label>
+        <input  type="submit" name="bringel" id="bringel"><br>
+
+        <label for="bb">PRF</label>
+        <input  type="reset" name="bb" id="bb">
+
+
+    </form>
+</body>
+</html>
